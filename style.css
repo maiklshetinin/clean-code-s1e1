@@ -48,7 +48,8 @@ ul {
   padding: 0px;
 }
 
-li, h3 {
+li,
+h3 {
   list-style: none;
 }
 
@@ -122,17 +123,20 @@ li > * {
     vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+li > 
+input[type="checkbox"] {
   margin: 0 10px;
 }
-li > label {
+li > 
+label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-li >    input[type="text"] {
+li >
+input[type="text"] {
   width: 226px
 }
 
@@ -142,7 +146,8 @@ button.delete img {
   transition: transform 200ms ease-in;
 }
 
-button.delete img:hover {
+button.delete 
+img:hover {
   transform: rotateZ(0);
 }
 
@@ -153,15 +158,20 @@ ul#completed-tasks label {
 }
 
 /* Edit Task */
-ul li input[type=text] {
+ul
+li input[type=text] {
   display: none;
 }
 
-ul li.edit-mode input[type=text] {
+ul
+li.edit-mode
+input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-ul li.edit-mode label {
+ul 
+li.edit-mode
+ label {
   display: none;
 }
